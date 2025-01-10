@@ -7,12 +7,14 @@
     padding-left: 60px;
     padding-right: 60px;
     border-radius:24px;
+    
 }
 .banner{
     display:flex;
     justify-content: center;
     margin-top:200px;
     gap:20px;
+    margin-bottom:100px;
 }
 .banner-image{
     width:480px;
@@ -44,5 +46,55 @@
 .banner-button:hover{
     cursor:pointer;
     background-color: rgb(160, 206, 92);
-    transition:0.1s;
+}
+.title-2nd{
+    font-size: 40px;
+    font-weight: bold;
+}
+.second-section-contents{
+    width:1300px;
+}
+.second-section{
+    display:flex;
+    justify-content:center;
+}
+.para-2nd{
+    font-size:18px;
+    color:#5d5d5d;
+    margin-top:15px;
+    margin-bottom:35px;
+}
+.three-box-parent{
+    display:flex;
+    gap:25px;
+}
+.transformation, .energy, .infrastructure{
+    width:410px;
+}
+.transformation{
+    background-color:#cbdaf4;
+    border-radius: 16px;
+    padding:32px;
+}
+.card{
+    width:64px;
+    height:64px;
+}
+.transfo-title{
+    font-size:20px;
+    font-weight: bold;
+}
+.transfo-p{
+    font-size: 16px;
+}
+.box-btn{
+    background-color: #5490F5;
+    width:122px;
+    height:41px;
+    border-radius:8px;
+    font-weight: bold;
+    border:none;
+    color:white;
+    margin-top:24px;
+    font-size:16px;
 }
