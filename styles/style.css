@@ -1,0 +1,12 @@
+.banner-content{
+    display:flex;
+    justify-content:space-between;
+    width:1300px;
+    align-items: center;
+    background-color: rgb(207, 246, 207);
+}
+.banner{
+    display:flex;
+    justify-content: center;
+    margin-top:200px;
+}
