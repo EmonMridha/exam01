@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(241, 239, 239);
+}
 .banner-content{
     display:flex;
     justify-content:space-between;
@@ -97,7 +100,7 @@
     margin-top:45px;
     font-size:16px;
 }
-.box-btn-t:hover, .box-btn-e:hover,.box-btn-i:hover{
+.box-btn-t:hover,  .box-btn-e:hover,.box-btn-i:hover{
     background-color:white;
     cursor:pointer;
     color:black;
@@ -159,4 +162,66 @@
 }
 .news1{
     display:flex;
+    padding:50px;
+    border-radius:25px;
+    background-color: white;
+    gap:35px;
+}
+.news-img{
+    border-radius:25px;
+    width:410px;
+    height:310px;
+}
+.news-title{
+    font-size: 35px;
+    font-family:arial;
+    font-weight: bolder;
+}
+.news-date, .news-details{
+    font-size: 18px;
+    font-family: arial;
+    line-height: 25px;
+}
+.news-btn{
+    width:180px;
+    height:60px;
+    border-radius:9px;
+   
+   
+    background-color: #006A50;
+    color:white;
+    font-weight: bold;
+    font-size:19px;
+    font-family:arial;
+    border: none;
+}
+.news-btn:hover{
+    background: rgb(231, 231, 231);
+    cursor: pointer;
+    color:black;
+}
+.news2{
+    display:flex;
+    padding:50px;
+    border-radius:25px;
+    background-color: white;
+    gap:35px;
+    margin-top: 30px;
+}
+.donate-section{
+    display:flex;
+    justify-content: center;
+
+}
+.donate-contains{
+    width:1300px;
+    text-align:center;
+}
+.card-box{
+    display: flex;
+    justify-content:center;
+}
+.input-item{
+    display:flex;
+    justify-content: center;
 }
