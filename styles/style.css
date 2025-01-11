@@ -140,3 +140,23 @@
     margin-top:40px;
     font-size:16px;
 }
+.third-section{
+    display:flex;
+    justify-content: center;
+}
+.third-section-content{
+    width:1300px;
+}
+.third-title{
+    font-size:45px;
+    font-weight: bold;
+    font-family: arial;
+}
+.third-p{
+    font-size:19px;
+    line-height:25px;
+    color:#5d5d5d;
+}
+.news1{
+    display:flex;
+}
