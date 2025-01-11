@@ -94,6 +94,7 @@ body{
 }
 .transfo-p, .energy-p, .infra-p{
     font-size: 18px;
+    color:rgb(88, 88, 88);
 }
 .box-btn-t{
     background-color: #5490F5;
@@ -189,9 +190,6 @@ body{
     font-family: arial;
     line-height: 25px;
     color:rgb(88, 88, 88);
-}
-.sat-img{
-    margin-top:100px;
 }
 .news-btn{
     width:180px;
