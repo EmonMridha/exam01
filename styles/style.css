@@ -5,11 +5,11 @@ body{
 .banner-content{
     display:flex;
     justify-content:space-between;
-    width:1400px;
+    width:1150px;
     align-items: center;
     background-color: rgb(207, 246, 207);
-    padding-left: 80px;
-    padding-right: 60px;
+    padding-left: 60px;
+    padding-right: 40px;
     border-radius:24px;
     font-family: arial;
 
@@ -51,6 +51,7 @@ body{
 .banner-button:hover{
     cursor:pointer;
     background-color: rgb(160, 206, 92);
+    transition:0.4s;
 }
 .title-2nd{
     font-size: 40px;
@@ -58,6 +59,9 @@ body{
 }
 .second-section-contents{
     width:1300px;
+}
+.speech-p, .post{
+    color:rgb(88, 88, 88);
 }
 .second-section{
     display:flex;
@@ -106,6 +110,7 @@ body{
     background-color:white;
     cursor:pointer;
     color:black;
+    transition:0.4s;
 }
 .energy{
     padding:32px;
@@ -183,13 +188,15 @@ body{
     font-size: 18px;
     font-family: arial;
     line-height: 25px;
+    color:rgb(88, 88, 88);
+}
+.sat-img{
+    margin-top:100px;
 }
 .news-btn{
     width:180px;
     height:60px;
     border-radius:9px;
-   
-   
     background-color: #006A50;
     color:white;
     font-weight: bold;
@@ -201,6 +208,7 @@ body{
     background: rgb(231, 231, 231);
     cursor: pointer;
     color:black;
+    transition: 0.4s;
 }
 .news2{
     display:flex;
@@ -322,6 +330,7 @@ input{
     color:black;
     background-color: white;
     cursor:pointer;
+    transition:0.4s;
 }
 .the-promise{
     font-size: 18px;
@@ -378,9 +387,5 @@ input{
     transition:0.5s;
     cursor:pointer;
 }
-.card2:hover{
-    background-color:white;
-    transition:0.5s;
-    cursor:pointer;
-}
+
 
