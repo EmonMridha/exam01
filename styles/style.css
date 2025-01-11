@@ -356,4 +356,18 @@ input{
     margin-right: 20px;
     margin-left: 20px;
 }
+.speech{
+    width:1250px;
+    height:230px;
+    background-color:white;
+    padding:25px;
+    border-radius:16px;
+    margin-top:35px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left-top;
+}
+.name{
+    margin-top: 100px;;
+}
 
