@@ -291,7 +291,6 @@ input{
 .fifth-section{
     display:flex;
     justify-content: center;
-    margin-bottom: 150px;
     
 }
 .subscription-contents{
@@ -337,5 +336,24 @@ input{
 .the-promise{
     font-size: 18px;
     color:gray;
+}
+.footer-content{
+    text-align:center;
+    padding-left:300px;
+    padding-right:300px;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:white;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.icons{
+    gap:20px;
+}
+.insta{
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
